@@ -14,7 +14,7 @@ export default function NavbarComp() {
         <Navbar.Brand>
           <Link
             className="text-decoration-none text-white fs-2 text-uppercase fw-bold"
-            to="/"
+            to=""
           >
             start framework
           </Link>
@@ -26,7 +26,7 @@ export default function NavbarComp() {
               <li>
                 <NavLink
                   className="text-decoration-none text-white mx-3 px-1"
-                  to="about"
+                  to="about/"
                 >
                   about
                 </NavLink>
@@ -34,7 +34,7 @@ export default function NavbarComp() {
               <li>
                 <NavLink
                   className="text-decoration-none text-white mx-3 px-1"
-                  to="portfolio"
+                  to="portfolio/"
                 >
                   portfolio
                 </NavLink>
@@ -42,7 +42,7 @@ export default function NavbarComp() {
               <li>
                 <NavLink
                   className="text-decoration-none text-white mx-3 px-1"
-                  to="contact"
+                  to="contact/"
                 >
                   contact
                 </NavLink>
