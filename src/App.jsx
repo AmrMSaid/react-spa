@@ -8,7 +8,7 @@ import NotFound from "./components/NotFound/NotFound";
 
 let myRouter = createBrowserRouter([
   {
-    path: "/react-spa/",
+    path: "",
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
