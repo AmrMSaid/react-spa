@@ -3,20 +3,20 @@ import CardGroup from "react-bootstrap/CardGroup";
 
 export default function Navbar() {
   return (
-    <footer className="text-white">
+    <footer className="text-white dark-bg">
       <CardGroup>
         <Card className="text-white py-5">
           <Card.Body>
-            <Card.Text className="text-center">
+            <div className="text-center">
               <h3>LOCATION</h3>
               <p>2215 John Daniel Drive</p>
               <p>Clark, MO 65243</p>
-            </Card.Text>
+            </div>
           </Card.Body>
         </Card>
         <Card className="text-white py-5">
           <Card.Body>
-            <Card.Text className="text-center">
+            <div className="text-center">
               <h3>AROUND THE WEB</h3>
               <div className="d-flex flex-wrap justify-content-center">
                 <div className="circle d-flex justify-content-center mx-1">
@@ -32,18 +32,18 @@ export default function Navbar() {
                   <i className="fa-solid fa-globe"></i>
                 </div>
               </div>
-            </Card.Text>
+            </div>
           </Card.Body>
         </Card>
         <Card className="text-white py-5">
           <Card.Body>
-            <Card.Text className="text-center">
+            <div className="text-center">
               <h3>ABOUT FREELANCER</h3>
               <p>
                 Freelance is a free to use, licensed Bootstrap theme created by
                 Route
               </p>
-            </Card.Text>
+            </div>
           </Card.Body>
         </Card>
       </CardGroup>

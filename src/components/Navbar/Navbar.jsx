@@ -8,7 +8,7 @@ export default function NavbarComp() {
     <Navbar
       data-bs-theme="dark"
       expand="lg"
-      className="bg-body-tertiary p-4 sticky-top"
+      className="p-4 sticky-top dark-bg"
     >
       <Container className="nav-container">
         <Navbar.Brand>
