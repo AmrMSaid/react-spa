@@ -3,7 +3,7 @@ export default function Heading(props) {
 
   return (
     <>
-      <h1 className={`heading text-uppercase fw-bold mb-3 ${text}`}>
+      <h1 className={`heading text-uppercase fw-bold mb-3 text-center ${text}`}>
         {heading}
       </h1>
       <div className="d-flex align-items-center mb-3">

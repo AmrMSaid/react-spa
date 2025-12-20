@@ -5,21 +5,19 @@ import Navbar from "react-bootstrap/Navbar";
 
 export default function NavbarComp() {
   return (
-    <Navbar
-      data-bs-theme="dark"
-      expand="lg"
-      className="p-4 sticky-top dark-bg"
-    >
+    <Navbar data-bs-theme="dark" expand="lg" className="p-4 sticky-top dark-bg">
       <Container className="nav-container">
-        <Navbar.Brand>
-          <Link
-            className="text-decoration-none text-white fs-2 text-uppercase fw-bold"
-            to="/"
-          >
-            start framework
-          </Link>
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <div className="nav-header d-flex justify-content-between">
+          <Navbar.Brand>
+            <Link
+              className="nav-title text-decoration-none text-white fs-2 text-uppercase fw-bold"
+              to="/"
+            >
+              start framework
+            </Link>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        </div>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <ul className="d-flex list-unstyled m-0 text-uppercase fw-bold">

@@ -17,9 +17,9 @@ export default function Portfolio() {
     { img: image2 },
     { img: image3 },
   ];
-  
+
   return (
-    <section className="portfolio d-flex flex-column align-items-center justify-content-center text-center p-5">
+    <section className="portfolio d-flex flex-column align-items-center justify-content-center p-5">
       <Heading
         heading={"portfolio component"}
         text="dark-text"
